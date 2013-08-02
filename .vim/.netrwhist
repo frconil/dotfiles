@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/fconil/syseng-puppet/environments/dev/manifests/deployment'
+let g:netrw_dirhist_2='/home/fconil/syseng-puppet/files/deployment/perf.neweraed.com.au'
+let g:netrw_dirhist_3='/home/fconil/syseng-puppet/files/deployment/csa.editure.com'
