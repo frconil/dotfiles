@@ -1,19 +1,20 @@
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=5000
+SAVEHIST=5000
 bindkey -v
 alias history='history 1 | less'
 setopt SHARE_HISTORY
 setopt APPEND_HISTORY
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
-zstyle :compinstall filename '/home/fconil/.zshrc'
+zstyle :compinstall filename '/home/bato/.zshrc'
 export PAGER="/usr/bin/most"
 export PROMPT="%n@%m:%d> "
 export CVSROOT=:pserver:<user>@<cvs server>:/projects/cvs 
 alias py='python'
 alias ls='ls -lisah --color' 
+alias gitlist='ssh git@infra-svn info'
 alias syntax() { erb -P -x -T '-' "$*" | ruby -c; }
 autoload -Uz compinit
 compinit
